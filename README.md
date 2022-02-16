@@ -2,7 +2,7 @@
 
 # Description :
 
-Mini projet perso de logiciel comptabilisant les entrées clavier et souris, dans le but de faire des statistiques.
+Mini projet perso de logiciel comptabilisant les entrées clavier et souris, dans le but de faire des statistiques.\
 Génère un fichier data.txt exploitable avec pyplot pour générer des graphiques.
 
 Interface graphique sommaire (à améliorer) qui renseigne :
@@ -28,5 +28,5 @@ Interface graphique sommaire (à améliorer) qui renseigne :
 
 # Exporter en .exe :
 
-Pour générer clavitor.exe adapté à windows :
+Pour générer clavitor.exe adapté à windows :\
 pyinstaller --noconfirm --onefile --windowed --hidden-import "pynput.keyboard._win32" --hidden-import "pynput.mouse._win32" --hidden-import="matplotlib.pyplot" clavitor.py
